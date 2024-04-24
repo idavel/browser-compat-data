@@ -29,5 +29,39 @@
       ],
       "url": "/schemas/browsers.schema.json"
     }
-  ]
+  ],
+  "workbench.activityBar.iconClickBehavior": "focus",
+  "workbench.activityBar.location": "bottom",
+  "workbench.editor.autoLockGroups": {
+    "default": true,
+    "workbench.editorinputs.searchEditorInput": true,
+    "imagePreview.previewEditor": true,
+    "vscode.audioPreview": true,
+    "vscode.videoPreview": true,
+    "luna.editor": true,
+    "jupyter-notebook": true,
+    "github-issues": true,
+    "workbench.input.interactive": true,
+    "mainThreadWebview-markdown.preview": true
+  },
+  "workbench.editor.centeredLayoutFixedWidth": true,
+  "workbench.editor.limit.enabled": true,
+  "window.autoDetectColorScheme": true,
+  "extensions.closeExtensionDetailsOnViewChange": true,
+  "remote.extensionKind": {
+
+    "pub.name": [
+      "ui"
+    ]
+  },
+  "anycode.language.features": {
+    "folding": true
+  },
+  "github.codespaces.defaultExtensions": [
+
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "githubRepositories.autoFetch.enabled": true,
+  "githubRepositories.experimental.fs.useTars": "always"
 }
