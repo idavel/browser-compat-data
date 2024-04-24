@@ -1,20 +1,18 @@
 {
   "api": {
-    "WakeLockSentinel": {
+    "WebSocketStream": {
       "__compat": {
-        "mdn_url": "https://developer.mozilla.org/docs/Web/API/WakeLockSentinel",
-        "spec_url": "https://w3c.github.io/screen-wake-lock/#the-wakelocksentinel-interface",
         "tags": [
-          "web-features:screen-wake-lock"
+          "web-features:web-features:web-socket-stream"
         ],
         "support": {
           "chrome": {
-            "version_added": "84"
+            "version_added": "124"
           },
           "chrome_android": "mirror",
           "edge": "mirror",
           "firefox": {
-            "version_added": "126"
+            "version_added": false
           },
           "firefox_android": "mirror",
           "ie": {
@@ -24,37 +22,32 @@
           "opera": "mirror",
           "opera_android": "mirror",
           "safari": {
-            "version_added": "16.4"
+            "version_added": false
           },
-          "safari_ios": {
-            "version_added": "16.4",
-            "partial_implementation": true,
-            "notes": "Does not work in standalone Home Screen Web Apps. See <a href='https://webkit.org/b/254545#c32'>bug 254545</a>."
-          },
+          "safari_ios": "mirror",
           "samsunginternet_android": "mirror",
           "webview_android": "mirror"
         },
         "status": {
-          "experimental": false,
+          "experimental": true,
           "standard_track": true,
           "deprecated": false
         }
       },
-      "release": {
+      "WebSocketStream": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/WakeLockSentinel/release",
-          "spec_url": "https://w3c.github.io/screen-wake-lock/#the-release-method",
+          "description": "<code>WebSocketStream()</code> constructor",
           "tags": [
-            "web-features:screen-wake-lock"
+            "web-features:web-features:web-socket-stream"
           ],
           "support": {
             "chrome": {
-              "version_added": "84"
+              "version_added": "124"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "126"
+              "version_added": false
             },
             "firefox_android": "mirror",
             "ie": {
@@ -64,39 +57,32 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "16.4"
+              "version_added": false
             },
-            "safari_ios": {
-              "version_added": "16.4",
-              "partial_implementation": true,
-              "notes": "Does not work in standalone Home Screen Web Apps. See <a href='https://webkit.org/b/254545#c32'>bug 254545</a>."
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
             "webview_android": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
         }
       },
-      "release_event": {
+      "close": {
         "__compat": {
-          "description": "<code>release</code> event",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/WakeLockSentinel/release_event",
-          "spec_url": "https://w3c.github.io/screen-wake-lock/#the-onrelease-attribute",
           "tags": [
-            "web-features:screen-wake-lock"
+            "web-features:web-features:web-socket-stream"
           ],
           "support": {
             "chrome": {
-              "version_added": "84"
+              "version_added": "124"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "126"
+              "version_added": false
             },
             "firefox_android": "mirror",
             "ie": {
@@ -106,38 +92,32 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "16.4"
+              "version_added": false
             },
-            "safari_ios": {
-              "version_added": "16.4",
-              "partial_implementation": true,
-              "notes": "Does not work in standalone Home Screen Web Apps. See <a href='https://webkit.org/b/254545#c32'>bug 254545</a>."
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
             "webview_android": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
         }
       },
-      "released": {
+      "closed": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/WakeLockSentinel/released",
-          "spec_url": "https://w3c.github.io/screen-wake-lock/#dom-wakelocksentinel-released",
           "tags": [
-            "web-features:screen-wake-lock"
+            "web-features:web-features:web-socket-stream"
           ],
           "support": {
             "chrome": {
-              "version_added": "87"
+              "version_added": "124"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "126"
+              "version_added": false
             },
             "firefox_android": "mirror",
             "ie": {
@@ -147,38 +127,32 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "16.4"
+              "version_added": false
             },
-            "safari_ios": {
-              "version_added": "16.4",
-              "partial_implementation": true,
-              "notes": "Does not work in standalone Home Screen Web Apps. See <a href='https://webkit.org/b/254545#c32'>bug 254545</a>."
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
             "webview_android": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
         }
       },
-      "type": {
+      "opened": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/WakeLockSentinel/type",
-          "spec_url": "https://w3c.github.io/screen-wake-lock/#the-type-attribute",
           "tags": [
-            "web-features:screen-wake-lock"
+            "web-features:web-features:web-socket-stream"
           ],
           "support": {
             "chrome": {
-              "version_added": "84"
+              "version_added": "124"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "126"
+              "version_added": false
             },
             "firefox_android": "mirror",
             "ie": {
@@ -188,18 +162,49 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "16.4"
+              "version_added": false
             },
-            "safari_ios": {
-              "version_added": "16.4",
-              "partial_implementation": true,
-              "notes": "Does not work in standalone Home Screen Web Apps. See <a href='https://webkit.org/b/254545#c32'>bug 254545</a>."
-            },
+            "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
             "webview_android": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "url": {
+        "__compat": {
+          "tags": [
+            "web-features:web-features:web-socket-stream"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "124"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror"
+          },
+          "status": {
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
